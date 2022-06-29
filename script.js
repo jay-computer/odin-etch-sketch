@@ -17,5 +17,5 @@ for(let i = 0; i < 256; i = i + 1) {
 
 //add event listener to see if the user clicked on a cell
 const cells = Array.from(document.querySelectorAll('.off'));
-cells.forEach(cell => cell.addEventListener('click', swag));
+cells.forEach(cell => cell.addEventListener('hover', swag));
 //window.addEventListener('keydown', );
