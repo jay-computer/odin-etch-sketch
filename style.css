@@ -11,8 +11,8 @@ body {
     flex-shrink: 0;
     background-color: white;
     display: grid;
-    grid-template-columns: 600px;
-    grid-template-rows: 600px;
+    grid-template-columns: repeat(16, 40px);
+    grid-template-rows: repeat(16, 40px);
 }
 
 .controls {
@@ -21,4 +21,17 @@ body {
     align-self: start;
     flex: 0 1 auto;
     flex-wrap: wrap;
+}
+.off, .on {
+    
+    height: 40px;
+    width: 40px;
+}
+
+.off {
+    background-color: white;
+}
+
+.on {
+    background-color: black;
 }
